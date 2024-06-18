@@ -51,7 +51,7 @@ info "Install composer"
 sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 
 info "Installing PostgreSQL"
-sudo percona-release setup ppg-16.2
+sudo percona-release setup ppg-16.3
 sudo apt install -y percona-postgresql-16 \
   percona-postgresql-16-repack \
   percona-postgresql-16-pgaudit \
