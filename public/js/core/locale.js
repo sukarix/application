@@ -60,11 +60,11 @@ var Locale = function () {
 
         switchLocale: function (locale) {
             loadLocale();
-            Locale.translaterStrings();
+            Locale.translateStrings();
             $('.sk-cube-grid').empty();
         },
 
-        translaterStrings: function () {
+        translateStrings: function () {
             // Set the current language in the menu
             $('#current-language').contents().filter(function () {
                 return this.nodeType == 3 && $.trim(this.textContent).length > 0;
