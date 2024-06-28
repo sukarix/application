@@ -19,7 +19,6 @@
     "sukarix/statera": "dev-main",
     "fakerphp/faker": "^v1.23.1",
     "friendsofphp/php-cs-fixer": "^v3.54.0",
-    "phpunit/php-code-coverage": "^10.1.14",
     "roave/security-advisories": "dev-latest"
   },
   "autoload-dev": {
