@@ -54,7 +54,8 @@ Vagrant.configure("2") do |config|
 
   # sync: folder "sukarix" (host machine) -> folder "/app" (guest machine)
   config.vm.synced_folder "./", "/app", owner: "vagrant", group: "vagrant"
-  config.vm.synced_folder "./../sukarix", "/sukarix", owner: "vagrant", group: "vagrant"
+  # Enable the line below if you want to add sukarix to your development environement
+  # config.vm.synced_folder "./sukarix", "/sukarix", owner: "vagrant", group: "vagrant"
 
   # disable folder "/vagrant" (guest machine)
   config.vm.synced_folder ".", "/vagrant", disabled: true
