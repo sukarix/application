@@ -28,5 +28,7 @@ vendor/bin/phinx migrate
 
 info "Install Sukarix Shell CLI application"
 cd /app/tools
-wget -q -O sukarix.sh https://raw.githubusercontent.com/sukarix/cli/main/sukarix.sh && chmod +x sukarix.sh
-/sukarix.sh -si
+
+wget -q -O sukarix.sh https://raw.githubusercontent.com/sukarix/cli/main/sukarix.sh
+chmod +x sukarix.sh
+./sukarix.sh -si
