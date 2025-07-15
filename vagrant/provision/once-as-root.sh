@@ -51,17 +51,16 @@ info "Install composer"
 sudo curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer
 
 info "Installing PostgreSQL"
-sudo percona-release setup ppg-16.3
-sudo apt install -y percona-postgresql-16 \
-  percona-postgresql-16-repack \
-  percona-postgresql-16-pgaudit \
-  percona-pg-stat-monitor16 \
-  percona-pgbackrest \
+sudo percona-release setup ppg-17
+sudo apt install -y percona-postgresql-17 \
+  percona-postgresql-17-repack \
+  percona-postgresql-17-pgaudit \
+  percona-pg-stat-monitor17 \
   percona-patroni \
-  percona-pgaudit16-set-user \
+  percona-pgaudit17-set-user \
   percona-pgbadger \
-  percona-postgresql-16-wal2json \
-  percona-pg-stat-monitor16 \
+  percona-postgresql-17-wal2json \
+  percona-pg-stat-monitor17 \
   percona-postgresql-contrib
 
 info "Configure PHP-FPM"
@@ -80,10 +79,10 @@ sudo ln -s /app/vagrant/dev/nginx/app.conf /etc/nginx/sites-enabled/app.conf
 echo "Done!"
 
 info "set the default to listen to all addresses"
-sudo sed -i "/port*/a listen_addresses = '*'" /etc/postgresql/16/main/postgresql.conf
+sudo sed -i "/port*/a listen_addresses = '*'" /etc/postgresql/17/main/postgresql.conf
 
 info "allow any authentication mechanism from any client"
-sudo sed -i "$ a host all all all trust" /etc/postgresql/16/main/pg_hba.conf
+sudo sed -i "$ a host all all all trust" /etc/postgresql/17/main/pg_hba.conf
 
 info "Initializing dev databases and users for PostgreSQL"
 sudo -u postgres psql -c "CREATE USER sukarix WITH PASSWORD 'sukarix'"
