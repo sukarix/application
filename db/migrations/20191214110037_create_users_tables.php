@@ -2,14 +2,6 @@
 
 declare(strict_types=1);
 
-/*
- * Created by 207 Technology Group Inc. & RIADVICE SUARL
- * Copyright 2019-2024 | 207 Technology Group Inc. & RIADVICE SUARL ( c )
- * All rights reserved. You may not use, distribute or modify
- * this code under its source or binary form without the express
- * authorization of 207 Technology Group Inc. & RIADVICE SUARL. Contact : sdame@207me.com, devops@riadvice.tn
- */
-
 use Phinx\Migration\AbstractMigration;
 
 class CreateUsersTables extends AbstractMigration
