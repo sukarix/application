@@ -37,7 +37,7 @@ sudo apt install -y wget gnupg2 lsb-release curl zip unzip nginx-full bc ntp xml
 info "Install Redis for caching"
 sudo add-apt-repository -y ppa:redislabs/redis
 sudo apt install -y redis-server
-sudo systemctl enable redis-server
+sudo systemctl enable redis-server --now
 
 info "Install borgbackup"
 sudo add-apt-repository -y ppa:costamagnagianfranco/borgbackup
