@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9bbc6c2b1f9e2c600e4c59b4e4d97525",
+    "content-hash": "2413571ecd3a7192087fdd7e9d017ffe",
     "packages": [
         {
             "name": "bcosca/fatfree-core",
@@ -1851,11 +1851,11 @@
         },
         {
             "name": "sukarix/sukarix",
-            "version": "dev-main",
+            "version": "0.3.0",
             "dist": {
                 "type": "path",
                 "url": "../sukarix",
-                "reference": "e92da49cd6029761c73dcaec361f6ffe22d83711"
+                "reference": "ca63720b497868f05692f69fa882f2b209b6baf5"
             },
             "require": {
                 "bcosca/fatfree-core": "^3.9.2",
@@ -1882,7 +1882,6 @@
                 "php-parallel-lint/php-parallel-lint": "^1.4.0",
                 "phpmetrics/phpmetrics": "^v2.9.1",
                 "phpstan/phpstan": "^1.12.32",
-                "phpunit/php-code-coverage": "^10.1.16",
                 "rector/rector": "^1.2.10",
                 "roave/security-advisories": "dev-latest",
                 "squizlabs/php_codesniffer": "^3.13.5",
@@ -5616,15 +5615,15 @@
         },
         {
             "name": "sukarix/statera",
-            "version": "dev-main",
+            "version": "0.3.0",
             "dist": {
                 "type": "path",
                 "url": "../statera",
-                "reference": "9895c04631b327b6eb6a13e5c7c328ae5c218931"
+                "reference": "879f9c14efec954599f1c9600577c83eb37b40c4"
             },
             "require": {
                 "php": "^8.2",
-                "sukarix/sukarix": "dev-main"
+                "sukarix/sukarix": "^v0.3.0"
             },
             "require-dev": {
                 "ext-xdebug": "*",
@@ -5696,7 +5695,7 @@
                     "email": "ghazi.triki@riadvice.com"
                 }
             ],
-            "description": "Deprecated: Statera is now bundled with the sukarix/sukarix framework. This standalone package is kept for backward compatibility and simply requires sukarix/sukarix.",
+            "description": "Statera - Statera is a unit testing kit designed specifically for the Sukarix Framework.",
             "homepage": "https://sukarix.com",
             "keywords": [
                 "fat-free",
@@ -6397,9 +6396,7 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "roave/security-advisories": 20,
-        "sukarix/statera": 20,
-        "sukarix/sukarix": 20
+        "roave/security-advisories": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
