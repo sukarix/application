@@ -4,10 +4,8 @@ Skeleton app on Sukarix + F3. PostgreSQL, Redis, Phinx migrations. Tests via Sta
 
 ## Commits
 
-Unitary commits. Author: Ghazi Triki. Co-authored with Devin.
+Unitary commits. Author: Ghazi Triki. No co-author trailers, no tool attribution.
 
 ```
 <description>
-
-Co-Authored-By: Devin
 ```
