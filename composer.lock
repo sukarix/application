@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2413571ecd3a7192087fdd7e9d017ffe",
+    "content-hash": "a69af51d32c449642579570eff27f725",
     "packages": [
         {
             "name": "bcosca/fatfree-core",
@@ -1851,11 +1851,11 @@
         },
         {
             "name": "sukarix/sukarix",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "dist": {
                 "type": "path",
                 "url": "../sukarix",
-                "reference": "ca63720b497868f05692f69fa882f2b209b6baf5"
+                "reference": "0aebf181521263871f7b64580f5c6e6f0b7ce507"
             },
             "require": {
                 "bcosca/fatfree-core": "^3.9.2",
@@ -5615,15 +5615,15 @@
         },
         {
             "name": "sukarix/statera",
-            "version": "0.3.0",
+            "version": "0.3.1",
             "dist": {
                 "type": "path",
                 "url": "../statera",
-                "reference": "879f9c14efec954599f1c9600577c83eb37b40c4"
+                "reference": "4861eed5525a8ce6e10821b03d433f51978581ff"
             },
             "require": {
                 "php": "^8.2",
-                "sukarix/sukarix": "^v0.3.0"
+                "sukarix/sukarix": "^v0.3.1"
             },
             "require-dev": {
                 "ext-xdebug": "*",
