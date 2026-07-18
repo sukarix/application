@@ -17,7 +17,7 @@
   "require": {
     "php": "^8.2",
     "ext-redis": "*",
-    "sukarix/sukarix": "dev-main",
+    "sukarix/sukarix": "v0.3.0",
     "robmorgan/phinx": "^0.16.10"
   },
   "autoload": {
@@ -27,7 +27,7 @@
   },
   "require-dev": {
     "ext-xdebug": "*",
-    "sukarix/statera": "dev-main",
+    "sukarix/statera": "v0.3.0",
     "fakerphp/faker": "^v1.24.1",
     "friendsofphp/php-cs-fixer": "^v3.93.1",
     "roave/security-advisories": "dev-latest"
