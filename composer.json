@@ -4,20 +4,10 @@
   "description": "The skeleton application for the Sukarix PHP framework.",
   "keywords": ["sukarix", "framework", "fat-free"],
   "license": "MIT",
-  "repositories": [
-    {
-      "type": "path",
-      "url": "../sukarix"
-    },
-    {
-      "type": "path",
-      "url": "../statera"
-    }
-  ],
   "require": {
     "php": "^8.2",
     "ext-redis": "*",
-    "sukarix/sukarix": "v0.3.1",
+    "sukarix/sukarix": "v0.3.2",
     "robmorgan/phinx": "^0.16.10"
   },
   "autoload": {
@@ -27,7 +17,7 @@
   },
   "require-dev": {
     "ext-xdebug": "*",
-    "sukarix/statera": "v0.3.1",
+    "sukarix/statera": "v0.3.2",
     "fakerphp/faker": "^v1.24.1",
     "friendsofphp/php-cs-fixer": "^v3.93.1",
     "roave/security-advisories": "dev-latest"

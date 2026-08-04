@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a69af51d32c449642579570eff27f725",
+    "content-hash": "015bb59e87e7cf4c3cf61e27fdb52231",
     "packages": [
         {
             "name": "bcosca/fatfree-core",
@@ -1851,11 +1851,11 @@
         },
         {
             "name": "sukarix/sukarix",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "dist": {
                 "type": "path",
                 "url": "../sukarix",
-                "reference": "0aebf181521263871f7b64580f5c6e6f0b7ce507"
+                "reference": "2931635f076be98c47064d64f1a7aafbf00e17e8"
             },
             "require": {
                 "bcosca/fatfree-core": "^3.9.2",
@@ -1885,7 +1885,7 @@
                 "rector/rector": "^1.2.10",
                 "roave/security-advisories": "dev-latest",
                 "squizlabs/php_codesniffer": "^3.13.5",
-                "sukarix/statera": "dev-main",
+                "sukarix/statera": "^v0.3.2",
                 "vimeo/psalm": "^6.13.0",
                 "wapmorgan/php-deprecation-detector": "^2.0.33"
             },
@@ -5615,15 +5615,15 @@
         },
         {
             "name": "sukarix/statera",
-            "version": "0.3.1",
+            "version": "0.3.2",
             "dist": {
                 "type": "path",
                 "url": "../statera",
-                "reference": "4861eed5525a8ce6e10821b03d433f51978581ff"
+                "reference": "3e932819fe7a25912420758c8a315e39d37b408f"
             },
             "require": {
                 "php": "^8.2",
-                "sukarix/sukarix": "^v0.3.1"
+                "sukarix/sukarix": "^v0.3.2"
             },
             "require-dev": {
                 "ext-xdebug": "*",
